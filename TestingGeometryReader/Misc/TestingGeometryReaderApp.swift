@@ -11,7 +11,7 @@ import SwiftUI
 struct TestingGeometryReaderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProposalView()
         }
     }
 }

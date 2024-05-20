@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		E0A8F0BD2BF79A7D00A6834D /* TestingGeometryReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8F0BC2BF79A7D00A6834D /* TestingGeometryReaderApp.swift */; };
-		E0A8F0BF2BF79A7D00A6834D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8F0BE2BF79A7D00A6834D /* ContentView.swift */; };
+		E0A8F0BF2BF79A7D00A6834D /* ProposalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8F0BE2BF79A7D00A6834D /* ProposalView.swift */; };
 		E0A8F0C12BF79A7F00A6834D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A8F0C02BF79A7F00A6834D /* Assets.xcassets */; };
 		E0A8F0C42BF79A7F00A6834D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A8F0C32BF79A7F00A6834D /* Preview Assets.xcassets */; };
+		E0A8F0CB2BF79DD400A6834D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8F0CA2BF79DD400A6834D /* RatingView.swift */; };
+		E0A8F0CD2BF7A77D00A6834D /* SizeOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8F0CC2BF7A77D00A6834D /* SizeOverlay.swift */; };
+		E0A8F0CF2BF7ABDD00A6834D /* DebugLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8F0CE2BF7ABDD00A6834D /* DebugLayout.swift */; };
+		E0A8F0D32BFBCF9400A6834D /* ReadSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8F0D22BFBCF9400A6834D /* ReadSize.swift */; };
+		E0A8F0D52BFBD1A300A6834D /* ReadSizeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8F0D42BFBD1A300A6834D /* ReadSizeExample.swift */; };
+		E0A8F0DC2BFBD71600A6834D /* AlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8F0DB2BFBD71600A6834D /* AlignedLayout.swift */; };
+		E0A8F0DE2BFBDFA100A6834D /* AlignedHStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8F0DD2BFBDFA100A6834D /* AlignedHStackExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E0A8F0B92BF79A7D00A6834D /* TestingGeometryReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingGeometryReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A8F0BC2BF79A7D00A6834D /* TestingGeometryReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingGeometryReaderApp.swift; sourceTree = "<group>"; };
-		E0A8F0BE2BF79A7D00A6834D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0A8F0BE2BF79A7D00A6834D /* ProposalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProposalView.swift; sourceTree = "<group>"; };
 		E0A8F0C02BF79A7F00A6834D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0A8F0C32BF79A7F00A6834D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0A8F0CA2BF79DD400A6834D /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		E0A8F0CC2BF7A77D00A6834D /* SizeOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeOverlay.swift; sourceTree = "<group>"; };
+		E0A8F0CE2BF7ABDD00A6834D /* DebugLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugLayout.swift; sourceTree = "<group>"; };
+		E0A8F0D22BFBCF9400A6834D /* ReadSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadSize.swift; sourceTree = "<group>"; };
+		E0A8F0D42BFBD1A300A6834D /* ReadSizeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadSizeExample.swift; sourceTree = "<group>"; };
+		E0A8F0DB2BFBD71600A6834D /* AlignedLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignedLayout.swift; sourceTree = "<group>"; };
+		E0A8F0DD2BFBDFA100A6834D /* AlignedHStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignedHStackExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +65,11 @@
 		E0A8F0BB2BF79A7D00A6834D /* TestingGeometryReader */ = {
 			isa = PBXGroup;
 			children = (
-				E0A8F0BC2BF79A7D00A6834D /* TestingGeometryReaderApp.swift */,
-				E0A8F0BE2BF79A7D00A6834D /* ContentView.swift */,
-				E0A8F0C02BF79A7F00A6834D /* Assets.xcassets */,
-				E0A8F0C22BF79A7F00A6834D /* Preview Content */,
+				E0A8F0D72BFBD4F500A6834D /* Example 1 */,
+				E0A8F0D92BFBD51A00A6834D /* Swift Layout Example */,
+				E0A8F0D62BFBD49500A6834D /* Solution 1 */,
+				E0A8F0DA2BFBD59F00A6834D /* Solution 2 */,
+				E0A8F0D82BFBD4FB00A6834D /* Misc */,
 			);
 			path = TestingGeometryReader;
 			sourceTree = "<group>";
@@ -65,6 +80,52 @@
 				E0A8F0C32BF79A7F00A6834D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0A8F0D62BFBD49500A6834D /* Solution 1 */ = {
+			isa = PBXGroup;
+			children = (
+				E0A8F0D22BFBCF9400A6834D /* ReadSize.swift */,
+				E0A8F0D42BFBD1A300A6834D /* ReadSizeExample.swift */,
+			);
+			path = "Solution 1";
+			sourceTree = "<group>";
+		};
+		E0A8F0D72BFBD4F500A6834D /* Example 1 */ = {
+			isa = PBXGroup;
+			children = (
+				E0A8F0CA2BF79DD400A6834D /* RatingView.swift */,
+			);
+			path = "Example 1";
+			sourceTree = "<group>";
+		};
+		E0A8F0D82BFBD4FB00A6834D /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				E0A8F0CC2BF7A77D00A6834D /* SizeOverlay.swift */,
+				E0A8F0BC2BF79A7D00A6834D /* TestingGeometryReaderApp.swift */,
+				E0A8F0C02BF79A7F00A6834D /* Assets.xcassets */,
+				E0A8F0C22BF79A7F00A6834D /* Preview Content */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		E0A8F0D92BFBD51A00A6834D /* Swift Layout Example */ = {
+			isa = PBXGroup;
+			children = (
+				E0A8F0CE2BF7ABDD00A6834D /* DebugLayout.swift */,
+				E0A8F0BE2BF79A7D00A6834D /* ProposalView.swift */,
+			);
+			path = "Swift Layout Example";
+			sourceTree = "<group>";
+		};
+		E0A8F0DA2BFBD59F00A6834D /* Solution 2 */ = {
+			isa = PBXGroup;
+			children = (
+				E0A8F0DB2BFBD71600A6834D /* AlignedLayout.swift */,
+				E0A8F0DD2BFBDFA100A6834D /* AlignedHStackExample.swift */,
+			);
+			path = "Solution 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +198,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0A8F0BF2BF79A7D00A6834D /* ContentView.swift in Sources */,
+				E0A8F0DC2BFBD71600A6834D /* AlignedLayout.swift in Sources */,
+				E0A8F0DE2BFBDFA100A6834D /* AlignedHStackExample.swift in Sources */,
+				E0A8F0D52BFBD1A300A6834D /* ReadSizeExample.swift in Sources */,
+				E0A8F0D32BFBCF9400A6834D /* ReadSize.swift in Sources */,
+				E0A8F0CB2BF79DD400A6834D /* RatingView.swift in Sources */,
+				E0A8F0CD2BF7A77D00A6834D /* SizeOverlay.swift in Sources */,
+				E0A8F0BF2BF79A7D00A6834D /* ProposalView.swift in Sources */,
+				E0A8F0CF2BF7ABDD00A6834D /* DebugLayout.swift in Sources */,
 				E0A8F0BD2BF79A7D00A6834D /* TestingGeometryReaderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TestingGeometryReader/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TestingGeometryReader/Misc/Preview Content\"";
 				DEVELOPMENT_TEAM = LTPRXNU6U7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,7 +368,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TestingGeometryReader/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TestingGeometryReader/Misc/Preview Content\"";
 				DEVELOPMENT_TEAM = LTPRXNU6U7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
